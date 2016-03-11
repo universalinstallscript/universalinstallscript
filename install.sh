@@ -5,7 +5,7 @@ easy_install "$1" &
 brew install "$1" &
 npm install "$1" &
 yum install "$1" & dnf install "$1" &
-docer run "$1" &
+docker run "$1" &
 pkg install "$1" &
 apt-get install "$1" &
 steamcmd +app_update "$1" validate &
