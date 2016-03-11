@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pip install "$1" &
 easy_install "$1" &
 brew install "$1" &
