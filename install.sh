@@ -7,7 +7,7 @@ npm install "$1" &
 yum install "$1" & dnf install "$1" &
 docker run "$1" &
 pkg install "$1" &
-apt-get install "$1" &
+sudo apt-get install "$1" &
 steamcmd +app_update "$1" validate &
 git clone https://github.com/"$1"/"$1" &
 cd "$1";./configure;make;make install &
